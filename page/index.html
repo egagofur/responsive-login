@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="container">
+        <div class="image">
+          <img src="../assets/image2.svg" alt="" />
+        </div>
+        <div class="login-form">
+          <h1>Bio Data</h1>
+          <form>
+            <div class="form-input">
+              <label for="nama">Nama Depan</label>
+              <input type="text" placeholder="example ega" id="nama/>
+            </div>
+            <div class="form-input">
+              <label for="nama">Nama Belakang</label>
+              <input type="text" placeholder="example gofur" />
+            </div>
+            <div class="form-input">
+              <label for="alamat">Alamat</label>
+              <input type="text" placeholder="your Address" />
+            </div>
+            <div class="form-input">
+              <label for="nomor">Nomor Hp</label>
+              <input type="number" placeholder="your contact number" />
+            </div>
+            <div class="form-input">
+              <label for="email">Email</label>
+              <input type="email" placeholder="your email" />
+            </div>
+            <div class="form-radio">
+              <h5 for="gender">Gender</h5>
+              <p>Pria</p>
+              <input type="radio" name="gender" />
+              <p>Wanita</p>
+              <input type="radio" name="gender" />
+            </div>
+            <h5 for="hobi">Hobi</h5>
+            <div class="form-check">
+              <p>Membaca</p>
+              <input type="checkbox" name="membaca" />
+              <p>Ngoding</p>
+              <input type="checkbox" name="ngoding" />
+              <p>Desain</p>
+              <input type="checkbox" name="desain" />
+              <p>Ngeprank</p>
+              <input type="checkbox" name="ngeprank" />
+            </div>
+            <h5>Negara</h5>
+            <div class="select">
+              <select name="negara" id="negara">
+                <option selected disabled>Pilih negara</option>
+                <option value="pdf">Indonesia</option>
+                <option value="txt">Japan</option>
+                <option value="epub">China</option>
+                <option value="fb2">Rusia</option>
+                <option value="mobi">Korea</option>
+              </select>
+            </div>
+            <div class="form-kata">
+              <h5 for="katana">Kata-kata</h5>
+              <textarea
+                name="kata"
+                id="katana"
+                placeholder="tulis pesan disini!"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button type="submit">Confirm</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
